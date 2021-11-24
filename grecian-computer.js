@@ -54,7 +54,6 @@ function crunch() {
         for (let l = 0; l < 12; l++) {
           dial4 = shiftit(dial4);
           setConfig();
-          //console.log(config);
 
           //TODO: this is the ideal case, but we never reach it
           //possible typo in array data?
@@ -70,6 +69,8 @@ function crunch() {
     }
     dial1 = shiftit(dial1);
   }
+
+  //TODO: when we get 12 42s, delete these logs
   //at the end, tell them the highest count of 42 in a configuration
   //finish the algorithm
   console.log(['high 42', high42]);
@@ -91,6 +92,8 @@ function is42(repeating = false) {
         //   console.log(config[0][file]+'+'+config[1][file] + '+' +config[2][file] + '+' + config[3][file] + ' = ' + sum);
         // }
         // console.log('sum is '+sum);
+
+
         //return false;
 
       } else {
@@ -98,6 +101,7 @@ function is42(repeating = false) {
       }
     }
 
+    // TODO: delete this repeating business after we find the real answer
     //console.log(['number of 42s',num42]);
     high42 = (num42 > high42) ? num42 : high42;
     if (num42 == 11 && !repeating) {
@@ -115,8 +119,6 @@ function shiftit(thisdial) {
   thisdial[0].push(thisdial[0].shift());
   if (!!thisdial[1])
     thisdial[1].push(thisdial[1].shift());
-
-  //console.error(['shifted dial',thisdial]);
   return thisdial;
 }
 
