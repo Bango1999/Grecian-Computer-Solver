@@ -42,19 +42,6 @@ solve();
 //-------------------------------------
 //    Helper Functions
 //-------------------------------------
-function teststuff() {
-  setConfig();
-  console.log(['config',config]);
-  dial1 = shiftit(dial1);
-  //setConfig();
-  //dial2 = shiftit(dial2);
-  //setConfig();
-  //dial3 = shiftit(dial3);
-  //setConfig();
-  //dial4 = shiftit(dial4);
-  setConfig();
-  console.log(['config',config]);
-}
 
 function resetConfig() {
   config = [   //the backboard, non-rotating constant
