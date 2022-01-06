@@ -1,7 +1,7 @@
 /* * * * * * * * * * * * * * * * * * *
  *                                   *
  *      Grecian Computer Solver      *
- *      Logan Swango - 11/23/21
+ *      Logan Swango - 11/23/21      *
  *    Contributions by peterson-d    *
  *                                   *
  * * * * * * * * * * * * * * * * * * */
