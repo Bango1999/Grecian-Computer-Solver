@@ -1,11 +1,10 @@
 
 # Grecian Computer Solver
-Javascript algorithm solving the the [Grecian Computer Puzzle](https://lmgtfy.app/?q=grecian+computer+puzzle). Logs to console
+ * Uses javascript to solve the the [Grecian Computer Puzzle](https://lmgtfy.app/?q=grecian+computer+puzzle)<br>
+ * Logs to console
 
 ## Results
-I've not yet been able to solve 12 summations to 42 - Perhaps I have a typo from manually entering data from the dials. I need to double check...
-
-The highest match *so far* is 11/12 radial arrays summing to 42, which can be found with the configuration:
+The answer to the puzzle is as follows:
 
  1. Outer Orbital:
 	 - 1,  5, 9,  7, 12, 8,  6, 8, 10,  3, 10, 12
@@ -17,5 +16,6 @@ The highest match *so far* is 11/12 radial arrays summing to 42, which can be fo
 	 - 8,  7,  3, 3,  6, 6, 10, 11, 7, 11, 15,  6
 
 ### License
-Created by Logan Swango
+Created by Logan Swango<br>
+Contributions by peterson-d<br>
 MIT license
